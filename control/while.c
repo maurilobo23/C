@@ -26,3 +26,31 @@ int main()
 
    return 0;
 }
+
+#include <stdio.h>
+
+int main()
+{
+
+   int n, a;
+   a = 0;
+   
+     printf( "Introduzca un numero entero: " );
+     scanf( "%d", &n );
+
+     while( n >= -10 && n <= 10 ){
+	     if ( n == 0 )
+	     {
+	      printf( "ERROR: El cero no tiene negativo.\n" );
+
+	     }
+	     printf( "El opuesto es: %d\n", -n );
+	      a = a + n;
+	      n++;
+	      //continue;//
+      }
+
+   printf( "Suma: %d", a );
+
+   return 0;
+}
