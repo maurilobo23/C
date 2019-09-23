@@ -45,3 +45,27 @@ int main(void)
   getchar();
   return 0;
 }
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+  int x,y,z,cont;
+
+  x=0;
+  y=1;
+ 
+ 
+  for (cont=1;cont<=5;cont++)
+  {
+      
+      x=cont+y;
+      printf("dentro del for%d\n",x);
+      y++;
+         printf("Valor final: %d\n",cont);
+  }
+  printf("Valor final: %d\n",cont);
+  getchar();
+  return 0;
+}
