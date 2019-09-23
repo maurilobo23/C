@@ -28,16 +28,20 @@ int main(void)
 #include <stdio.h>
 #include <stdlib.h>
 
+#include <stdio.h>
+#include <stdlib.h>
+
 int main(void)
 {
   int cont;
 
-  for (cont=0;cont<=100;cont=cont+20)
+  for (cont=0;cont<=100;cont=cont+20) //declaramos a cont como una variable que podamos sumar en par o impar//
   {
-      printf("%d: Debo havcer mi tarea\n", cont);
+      printf("%d: Debo havcer mi tarea\n", cont); //%d representa lo que vale cont y regresa la etiqueta debo hacer mi tarea//
+     
       
   }
-  printf("Valor final: %d\n",cont);
+  printf("Valor final: %d\n",cont); //%d\n va a regresar el valor de cont//
   getchar();
   return 0;
 }
