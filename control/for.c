@@ -24,3 +24,20 @@ int main(void)
   getchar();
   return 0;
 }
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+  int cont;
+
+  for (cont=0;cont<=100;cont=cont+20)
+  {
+      printf("%d: Debo havcer mi tarea\n", cont);
+      
+  }
+  printf("Valor final: %d\n",cont);
+  getchar();
+  return 0;
+}
