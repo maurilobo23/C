@@ -67,4 +67,5 @@ int main()
     return 0;
 }
 
-//asi funciona un fgets(parametro, tamaño, entrada estandar)
+//asi funciona un fgets es como el scanf(parametro, tamaño, entrada estandar)
+//puts es como el printf
