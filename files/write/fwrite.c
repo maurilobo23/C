@@ -46,3 +46,25 @@
 
               fclose(fp);
        }
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    FILE *fp;
+    archivo = fopen("hello.txt", "a");
+    
+    if(archivo == NULL)
+        exit(0);
+    else
+    {
+        fprintf(archivo, "%s%s\n", "Hola mundo ", nombre);
+        puts("Escrbiendo...");
+    }
+        getchar();
+        fclose(archivo);
+    return 0;
+}
+
+//asi funciona un fgets(parametro, tamaño, entrada estandar)
