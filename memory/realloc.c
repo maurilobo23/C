@@ -1,3 +1,5 @@
+//tengo este espacio de memoria, para reusar espacios de memoria, para que sea más eficiente,  
+
 #include <stdio.h>
 #include <stdlib.h>
 
