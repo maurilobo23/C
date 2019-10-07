@@ -46,6 +46,3 @@
 
               fclose(fp);
        }
-
-
-//es lo mismo que el scanf pero con limitantes y no sirve muy bien
