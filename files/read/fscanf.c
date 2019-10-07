@@ -1,5 +1,5 @@
 /*int fscanf(FILE *fichero, const char *formato, argumento, ...);*/
-
+//es lo mismo que el scanf pero con limitantes y no sirve muy bien
 #include <stdio.h>
 
  
