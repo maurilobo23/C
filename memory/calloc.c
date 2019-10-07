@@ -1,4 +1,5 @@
 cuando inicializa los espacios de memoria los inicializa en 0 y guarda espacios de memoria en forma dinamica
+//los reserva y inicializa en 0 (espacios de memoria)
 
 #include <stdio.h>
 #include <stdlib.h>
