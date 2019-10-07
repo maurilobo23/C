@@ -1,3 +1,4 @@
+//lee caracteres uno por uno
 /*
  *Lee un caracter a la vez del archivo que esta siendo señalado con el puntero.
   char fgetc(FILE *archivo);
