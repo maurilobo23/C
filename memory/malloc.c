@@ -1,3 +1,4 @@
+//es más rápido porque no inicializa las variables, 
 #include <stdio.h>
 #include <stdlib.h>
 
